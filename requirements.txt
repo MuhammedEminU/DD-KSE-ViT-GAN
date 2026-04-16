@@ -1,0 +1,26 @@
+# DDC-KSE-ViT-GAN v10 — Python dependencies
+# Tested: Python 3.10 | CUDA 11.8 | Windows 10 | RTX 3090
+#
+# Recommended install (conda):
+#   conda create -n mri python=3.10
+#   conda activate mri
+#   conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+#   pip install -r requirements.txt
+
+# ── Core ──────────────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+h5py>=3.8.0
+
+# ── Visualisation & logging ───────────────────────────────────
+matplotlib>=3.7.0
+tensorboard>=2.12.0
+
+# ── Utilities ─────────────────────────────────────────────────
+tqdm>=4.65.0
+
+# ── FastMRI official metrics (strongly recommended) ───────────
+# Provides ssim, psnr, nmse matching the fastMRI leaderboard.
+# Install with: pip install fastmri
+# If not installed the code uses built-in fallback implementations.

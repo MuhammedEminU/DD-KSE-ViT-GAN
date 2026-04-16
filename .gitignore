@@ -1,0 +1,75 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ── Virtual environments ───────────────────────────────────────
+.env
+.venv
+env/
+venv/
+.conda/
+
+# ── FastMRI / MRI data (NEVER commit raw data) ────────────────
+*.h5
+*.hdf5
+*.nii
+*.nii.gz
+*.dcm
+data/
+datasets/
+multicoil_train/
+multicoil_val/
+multicoil_test*/
+singlecoil_*/
+
+# ── Model checkpoints (large binary files) ────────────────────
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# ── Training outputs ───────────────────────────────────────────
+outputs*/
+runs/
+tb/
+visualizations/
+results/
+metric_plots/
+
+# ── Images (keep only assets/ folder) ─────────────────────────
+*.png
+*.jpg
+*.jpeg
+!assets/*.png
+!assets/*.jpg
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+*.csv
+!assets/*.csv
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDEs ──────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ── TensorBoard events ────────────────────────────────────────
+events.out.tfevents.*
+
+# ── Misc ──────────────────────────────────────────────────────
+*.tmp
+*.bak
+tmp/
+temp/
