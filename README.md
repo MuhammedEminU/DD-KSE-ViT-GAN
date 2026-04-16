@@ -59,12 +59,7 @@ Reconstructed image  [B, H, W]
 
 Evaluated on FastMRI multicoil brain AXFLAIR at **8× acceleration**, per-volume mean:
 
-| Method | NMSE ↓ | PSNR ↑ | SSIM ↑ |
-|---|---|---|---|
-| Zero-filled | 0.0891 | 26.3 | 0.712 |
-| U-Net | 0.0234 | 33.1 | 0.856 |
-| E2E-VarNet | 0.0103 | 36.5 | 0.891 |
-| **DDC-KSE-ViT-GAN (Ours)** | **0.0084** | **38.5** | **0.918** |
+
 
 ### Reconstruction Example (8× acceleration, Brain T1-POST, Epoch 14)
 
@@ -98,7 +93,7 @@ pip install fastmri
 
 ## Dataset
 
-Download [FastMRI multicoil brain](https://fastmri.org/dataset/) and set paths via environment variables:
+Download (permission required) [FastMRI multicoil brain] and set paths via environment variables:
 
 ```bash
 # Windows (PowerShell)
