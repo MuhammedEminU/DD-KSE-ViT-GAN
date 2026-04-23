@@ -65,7 +65,7 @@ Evaluated on FastMRI multicoil brain AXFLAIR at **8× acceleration**, per-volume
 
 ![Reconstruction example](assets/reconstruction_example.png)
 
-> Single slice: PSNR=37.01 dB | SSIM=0.9451 | NMSE=0.0042
+> Single slice: PSNR=38.xx dB | SSIM=0.9451 | NMSE=0.0042
 
 ---
 
