@@ -57,7 +57,7 @@ Reconstructed image  [B, H, W]
 
 ## Results
 
-Evaluated on FastMRI multicoil brain AXFLAIR at **8× acceleration**, per-volume mean:33.5458 dB
+Evaluated on FastMRI multicoil brain AXFLAIR at **8× acceleration**, per-volume mean:33.5458 dB, per-slice 34.88 dB PSNR (peaking at 38.97 dB and 0.94 SSIM)  and 0.916 SSIM.
 
 
 
